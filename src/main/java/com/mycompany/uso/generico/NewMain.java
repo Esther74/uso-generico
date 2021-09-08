@@ -19,7 +19,7 @@ public class NewMain {
         
         //crea una referencia Gen para Integers
         Gen<Integer> iOb;
-        iOb = new Gen<Integer>(28);
+        iOb = new Gen<>(28);
         iOb.mostrarTipo();
         
         int v = iOb.getOb();
@@ -28,7 +28,7 @@ public class NewMain {
         
         //Crear un objeto Gen para Strings
         Gen<String> strObj;
-        strObj = new Gen<String>("prueba de genericos");
+        strObj = new Gen<>("prueba de genericos");
         strObj.mostrarTipo();
         String str = strObj.getOb();
         System.out.println("Valor: " + str);
